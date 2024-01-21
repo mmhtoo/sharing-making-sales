@@ -1,0 +1,111 @@
+{
+  "cashiers": [
+    {
+      "id": 1,
+      "name": "Kyaw Kyaw",
+      "email": "kyawkyaw@gmail.com",
+      "password": "kyawkyaw"
+    }
+  ],
+  "productCategories": [
+    {
+      "id": "1",
+      "name": "Drinks"
+    },
+    {
+      "id": "2",
+      "name": "Snacks"
+    },
+    {
+      "id": "3",
+      "name": "Cosmetics"
+    },
+    {
+      "id": "4",
+      "name": "Noodles"
+    },
+    {
+      "id": "5",
+      "name": "Candy"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Coca Cola",
+      "availableStock": 50,
+      "unitPrice": 1000,
+      "categoryId": "1"
+    },
+    {
+      "id": "2",
+      "name": "Moshi",
+      "availableStock": 30,
+      "unitPrice": 3000,
+      "categoryId": "2"
+    },
+    {
+      "id": "3",
+      "name": "Nivea Roll On",
+      "availableStock": 10,
+      "unitPrice": 5000,
+      "categoryId": "3"
+    },
+    {
+      "id": "4",
+      "name": "Sprite",
+      "availableStock": 0,
+      "unitPrice": 1000,
+      "categoryId": "1"
+    },
+    {
+      "id": "5",
+      "name": "Ice Cream",
+      "availableStock": 50,
+      "unitPrice": 2000,
+      "categoryId": "4"
+    },
+    {
+      "id": "6",
+      "name": "Samyang Ramen",
+      "availableStock": 0,
+      "unitPrice": 4000,
+      "categoryId": "1"
+    }
+  ],
+  "sales": [
+    {
+      "id": "7fcb59a1-4106-489d-85ad-a87009bb3117",
+      "casherId": 1,
+      "items": [
+        {
+          "productId": "1",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "id": "b84c0f1a-41d3-4b5d-b614-4c43cecbef63",
+      "casherId": 1,
+      "items": [
+        {
+          "productId": "1",
+          "quantity": 10
+        }
+      ]
+    }
+  ],
+  "discounts": [
+    {
+      "id": "1",
+      "name": "Spring Promotion",
+      "fromDate": "2024-01-01",
+      "toDate": "2024-01-31",
+      "validProducts": [
+        "1",
+        "2"
+      ],
+      "discountPercent": 5
+    }
+  ]
+}
